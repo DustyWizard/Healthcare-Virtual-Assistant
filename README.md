@@ -28,6 +28,11 @@ The API allows us to throw what the user puts in into something that decodes it 
 
 ![](images/ShowingAPI.png)
 
+#### Google geocoding API:
+This api takes postal addresses and converts them into latitude and longitude coordinate. This api is crucial because it provides the data that the directions API requires in order to calculate the routes.
+
+#### Directions API
+DISCLAIMER: I did not use the google directions API because I was having a lot of issues with it and several of my group members also had issues or they ran out free calls. Due to how late I started this project, I opted to use the TrueWay Directions API that is on RapidAPI.com as it didn't give me as much trouble parsing out the data from the JSON file. I know we were required to gain approval before using a non-listed API but I didn't have enough time. I hope I don't lose my marks for this api, i worked really hard on it :)
 
 #### GUI:
 This allows the user to see the inputs that they already put in in a box display. Including this makes the bot more easily understood. Being able to see what was already put in without the use of the console allows the user an informed decision if they forgot what was asked before. (see above image for GUI)
