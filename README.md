@@ -34,6 +34,8 @@ This api takes postal addresses and converts them into latitude and longitude co
 #### Directions API
 DISCLAIMER: I did not use the google directions API because I was having a lot of issues with it and several of my group members also had issues or they ran out free calls. Due to how late I started this project, I opted to use the TrueWay Directions API that is on RapidAPI.com as it didn't give me as much trouble parsing out the data from the JSON file. I know we were required to gain approval before using a non-listed API but I didn't have enough time. I hope I don't lose my marks for this api, i worked really hard on it :)
 
+Anyways, this API provides driving instructions to our medical clinic. It takes the geocoded address from the geocoding API and then outputs the steps to get to the destination from the provided address. 
+
 #### GUI:
 This allows the user to see the inputs that they already put in in a box display. Including this makes the bot more easily understood. Being able to see what was already put in without the use of the console allows the user an informed decision if they forgot what was asked before. (see above image for GUI)
 
