@@ -1,0 +1,13 @@
+Purpose of this program:
+
+The patient wants to either book an appointment or verify the appointment is booked so they open the chatbot:
+- The chatbot asks if there is an appointment already booked, if the user replies with any positive answer from the array 
+  the apointment is verified by either actually saving appointment dates or checking if date is valid.
+- If the user responds with any negative answer that matches any string in the array, the chabot offers to book an appointment ( we can actually save info and record them
+  into an csv or just display info afte it's done)
+- Every stage of the conversation is a level:
+Level 0: Registration
+Level 1: Verify if meeting is booked
+Level 2: Verify date
+
+Level 3 - 9 Could be additional requests that can be implemented 
