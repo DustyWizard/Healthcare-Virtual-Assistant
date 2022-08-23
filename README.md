@@ -1,4 +1,4 @@
-# COSC-310-projectgroup
+# Healthcare Virtual Assistant
 
 The patient wants to either book an appointment or verify the appointment is booked so they open the chatbot:
 There is a check to a small dataset to show its application but it can easily be used to link up to a real database of users.
